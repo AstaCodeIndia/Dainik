@@ -12,7 +12,7 @@ const AboutPage = () => {
     },
     {
       id: 2,
-      name: 'Surendra prashad yadav',
+      name: 'Surendra prasad yadav',
       title: 'Prop',
       image: 'https://images.unsplash.com/photo-1743361676542-0dbcb11c3d45?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     }
@@ -73,7 +73,7 @@ const AboutPage = () => {
           </div>
           <div>
             <p className="text-gray-600 mb-4">
-              Established in 2010, Danik Security has been a trusted name in providing top-tier security and workforce solutions. We are committed to safeguarding businesses, institutions, and communities with reliability and excellence. </p>
+              Established in 2018, Dainik Security has been a trusted name in providing top-tier security and workforce solutions. We are committed to safeguarding businesses, institutions, and communities with reliability and excellence. </p>
             <p className="text-gray-600 mb-4">
             Our team of trained professionals brings a wealth of experience and expertise, ensuring a proactive approach to security and operational efficiency. With a focus on innovation and client satisfaction, we tailor our services to meet your unique needs.
             </p>

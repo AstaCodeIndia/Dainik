@@ -38,17 +38,17 @@ const HomePage = () => {
       id: 1,
       name: 'Rajesh Mehta',
       tareef:
-        "Danik Security has been a game-changer for our business. Their security guards are well-trained, disciplined, and highly professional. We feel much safer knowing they are protecting our premises around the clock.",
+        "Dainik Security has been a game-changer for our business. Their security guards are well-trained, disciplined, and highly professional. We feel much safer knowing they are protecting our premises around the clock.",
     },
     {
       id: 2,
       name: 'Pooja Sharma',
-      tareef: "The housekeeping staff provided by Danik Security is outstanding. They maintain cleanliness with great attention to detail and professionalism. Our office space has never looked better!"
+      tareef: "The housekeeping staff provided by Dainik Security is outstanding. They maintain cleanliness with great attention to detail and professionalism. Our office space has never looked better!"
     },
     {
       id: 3,
       name: 'Vikram Joshi',
-      tareef: "We needed reliable electricians for our residential complex, and Danik Security delivered. Their team is knowledgeable, prompt, and ensures all safety standards are met. Highly recommended!"
+      tareef: "We needed reliable electricians for our residential complex, and Dainik Security delivered. Their team is knowledgeable, prompt, and ensures all safety standards are met. Highly recommended!"
     },
 
   ];
@@ -99,7 +99,7 @@ const HomePage = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div>
             <p className="mb-4 text-gray-600">
-              Established in 2010, Danik Security has been a trusted name in providing top-tier security and workforce solutions. We are committed to safeguarding businesses, institutions, and communities with reliability and excellence.
+              Established in 2018, Dainik Security has been a trusted name in providing top-tier security and workforce solutions. We are committed to safeguarding businesses, institutions, and communities with reliability and excellence.
             </p>
             <p className="mb-6 text-gray-600">
               Our team of trained professionals brings a wealth of experience and expertise, ensuring a proactive approach to security and operational efficiency. With a focus on innovation and client satisfaction, we tailor our services to meet your unique needs.
