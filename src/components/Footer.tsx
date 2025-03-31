@@ -105,7 +105,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400">
-            &copy; {currentYear} Danik Security. All rights reserved.
+            &copy; {currentYear} Dainik Security. All rights reserved.
           </p>
           <p className="text-gray-400">
             Designed and Developed by <a target='_blank' href="https://astacode.us.to/" className='text-amber-500'>AstaCode India</a>
