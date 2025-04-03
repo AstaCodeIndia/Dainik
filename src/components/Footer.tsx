@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="col-span-1">
             <h2 className="text-2xl font-bold mb-4">Dainik Security</h2>
             <p className="text-gray-400 mb-4">
-            Delivering reliable and innovative security solutions since 2010.
+              Delivering reliable and innovative security solutions since 2010.
             </p>
             <div className="flex space-x-4">
               <a
@@ -87,17 +87,17 @@ const Footer = () => {
               <li className="flex items-start">
                 <FiMapPin className="h-5 w-5 text-gray-400 mr-2 mt-0.5" />
                 <span className="text-gray-400">
-                Office no. 24 first floor Gausala market opp. Gurgaon bus stand, Gurgaon, Haryana
-
+                <strong>Gurgaon Branch: </strong> Office no. 24 first floor Gausala market opp. Gurgaon bus stand, Gurgaon, Haryana
+                      <br /> <br /> <strong>Head Branch: </strong> C11 Agar Nagar prem Nagar-III, Kirari Delhi-110086
                 </span>
               </li>
               <li className="flex items-center">
                 <FiPhone className="h-5 w-5 text-gray-400 mr-2" />
-                <span className="text-gray-400">+91 92649 02846 <br /> +91 98104 13896 <br /> +91 75668 88870</span>
+                <span className="text-gray-400">+91 92649 02846 <br /> +91 98104 13896 <br /> +91 93156 19752</span>
               </li>
               <li className="flex items-center">
                 <FiMail className="h-5 w-5 text-gray-400 mr-2" />
-                <span className="text-gray-400">mail@dainiksecurity.com</span>
+                <span className="text-gray-400">mail@dainiksecurity.com <br /> dainiksecurityservice@gmail.com</span>
               </li>
             </ul>
           </div>

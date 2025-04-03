@@ -18,6 +18,25 @@ const AboutPage = () => {
     }
   ];
 
+  const staff = [
+    {
+      id: 1,
+      img: "https://images.unsplash.com/photo-1743688124832-07b9391f908e?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      id: 2,
+      img: "https://images.unsplash.com/photo-1743688124476-7098c790f711?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      id: 3,
+      img: "https://images.unsplash.com/photo-1743688124428-ff6f819c6a77?q=80&w=2131&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      id: 4,
+      img: "https://images.unsplash.com/photo-1743688124415-b7aae1dd3d23?q=80&w=1956&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+  ]
+
   const values = [
     {
       id: 1,
@@ -111,6 +130,20 @@ const AboutPage = () => {
                 <h3 className="text-xl font-semibold text-gray-900">{member.name}</h3>
                 <p className="text-gray-600">{member.title}</p>
               </div>
+            </div>
+          ))}
+        </div>
+      </Section>
+      {/* Team Section */}
+      <Section title="Gallery">
+        <div className=" flex flex-wrap grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 image-center">
+          {staff.map((staffIMG) => (
+            <div key={staffIMG.id} className="bg-white rounded-lg shadow-md overflow-hidden flex-col flex flex-wrap">
+              <img
+                src={staffIMG.img}
+                alt={"Image"}
+                className="w-full h-64 object-cover flex-shrink-0 flex-grow-0"
+              />
             </div>
           ))}
         </div>
